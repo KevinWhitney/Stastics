@@ -1,0 +1,14 @@
+#A program to demonstrate the use of some stastics functions
+import stastics
+
+#Initialise a list of values
+values = [2, 3, 5, 2, 4]
+
+#Compute the 3 averages
+arithmetic_mean = stastics.mean(values)
+median_value = stastics,median(values)
+modal_value = stastics.mode(values)
+
+#Display the answers
+print("The mean is ", arithmetic_mean)
+print("The median and mode are %d and %d" %(median_value, modal_value))
